@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Audd_remake/static/css/main.03e03461.chunk.css",
-    "main.js": "/Audd_remake/static/js/main.fb66a15c.chunk.js",
-    "main.js.map": "/Audd_remake/static/js/main.fb66a15c.chunk.js.map",
+    "main.css": "/Audd_remake/static/css/main.020f4325.chunk.css",
+    "main.js": "/Audd_remake/static/js/main.f8818f66.chunk.js",
+    "main.js.map": "/Audd_remake/static/js/main.f8818f66.chunk.js.map",
     "runtime-main.js": "/Audd_remake/static/js/runtime-main.ceb9b4eb.js",
     "runtime-main.js.map": "/Audd_remake/static/js/runtime-main.ceb9b4eb.js.map",
     "static/css/2.0683c493.chunk.css": "/Audd_remake/static/css/2.0683c493.chunk.css",
-    "static/js/2.7714d8c2.chunk.js": "/Audd_remake/static/js/2.7714d8c2.chunk.js",
-    "static/js/2.7714d8c2.chunk.js.map": "/Audd_remake/static/js/2.7714d8c2.chunk.js.map",
+    "static/js/2.2ec51480.chunk.js": "/Audd_remake/static/js/2.2ec51480.chunk.js",
+    "static/js/2.2ec51480.chunk.js.map": "/Audd_remake/static/js/2.2ec51480.chunk.js.map",
     "index.html": "/Audd_remake/index.html",
-    "precache-manifest.615a00916c29c98129f2bc9610a8dc7f.js": "/Audd_remake/precache-manifest.615a00916c29c98129f2bc9610a8dc7f.js",
+    "precache-manifest.810ee4e2de27acf920cba78ec3719435.js": "/Audd_remake/precache-manifest.810ee4e2de27acf920cba78ec3719435.js",
     "service-worker.js": "/Audd_remake/service-worker.js",
     "static/css/2.0683c493.chunk.css.map": "/Audd_remake/static/css/2.0683c493.chunk.css.map",
-    "static/css/main.03e03461.chunk.css.map": "/Audd_remake/static/css/main.03e03461.chunk.css.map",
-    "static/js/2.7714d8c2.chunk.js.LICENSE": "/Audd_remake/static/js/2.7714d8c2.chunk.js.LICENSE",
+    "static/css/main.020f4325.chunk.css.map": "/Audd_remake/static/css/main.020f4325.chunk.css.map",
+    "static/js/2.2ec51480.chunk.js.LICENSE": "/Audd_remake/static/js/2.2ec51480.chunk.js.LICENSE",
     "static/media/edit.png": "/Audd_remake/static/media/edit.fb17f976.png",
     "static/media/logo.svg": "/Audd_remake/static/media/logo.5d5d9eef.svg",
     "static/media/microphone.png": "/Audd_remake/static/media/microphone.b8a6449f.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.ceb9b4eb.js",
     "static/css/2.0683c493.chunk.css",
-    "static/js/2.7714d8c2.chunk.js",
-    "static/css/main.03e03461.chunk.css",
-    "static/js/main.fb66a15c.chunk.js"
+    "static/js/2.2ec51480.chunk.js",
+    "static/css/main.020f4325.chunk.css",
+    "static/js/main.f8818f66.chunk.js"
   ]
 }
