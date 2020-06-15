@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: radial-gradient(ellipse at bottom, #123a69 0%, #030617 100%);
+  color: white;
+  padding: 2rem;
+  max-width: 1000px;
+    width: 100%;
+    min-height: 440px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+.container .media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	flex: 30%;
+}
+.media_img {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+}
+.container .media img {
+	border-radius: 5px;
+}
+
+.container .media .media_item1 {
+	color: grey;
+
+	left: 0;
+	bottom: 185px
+}
+
+.container .media .media_item2 {
+
+	right: 0;
+	bottom: 185px
+}
+
+.container .media .media_item2 a {
+	color: #ac0000;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.container .media .media_item2 a i {
+	margin-left: 10px
+}
+
+.container .content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      flex: 70%;
+}
+
+.container .content h1 {
+	margin-top: 20px;
+	font-weight: 400
+}
+
+.container .content h3 {
+	color: #ac0000;
+	font-weight: 400
+}
+
+.container .content small {
+	color: grey
+}
+
+.container__link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 20px;
+	cursor: pointer;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border: 2px solid #ac0000;
+	border-radius: 5px;
+	width: 200px;
+	height: 35px;
+	text-decoration: none;
+}
+.container__link  a {
+ text-decoration: none;
+ color: #fff;
+}
+.container .content a i {
+	margin-left: 10px;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+
+.container .content .contant_song {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	margin: 40px 0 20px 0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	color: #8b8b8b;
+	height: 100px;
+	border-top: 1px solid #afafaf;
+	border-bottom: 1px solid #afafaf
+}
+.play {
+  width: 100%;
+  background-color: black !important;
+  color: white !important;
+}
+
+.container .content .contant_release {
+	color: grey;
+	width: 100%;
+  height: auto;
+}
+
+.container .content .contant_release span {
+	color: #5c5c5c
+}
+
+.container .content .contant_release #span {
+	color: #ac0000
+}
+.content_button {
+  width: 30px;
+  height: 30px;
+}
+.button_container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_wrapper {
+  max-width: 1000px;
+  width: 100%;
+	min-height: 440px;
+  margin: auto;
+  padding: 3px;
+  height: auto;
+  background: linear-gradient(to right, red, purple);
+  background-color: #fbf6f6;
+	display: -webkit-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	display: -ms-flexbox;
+	display: flex
+}
+
+.music_data_error {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #d6c3c3;
+  border-radius: 5px;
+  background-color: #fbf6f6;
+  display: -webkit-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: -ms-flexbox;
+  display: flex
+}
+.find_error {
+  color: red;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  z-index: 3;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d2b48c00;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg,#ff3000,#ed0200,#ff096c,#d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: .8s cubic-bezier(.165,.84,.44,1);
+}
+.button:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg,#ff3000,#ed0200,#ff096c,#d50082);
+  transition: .8s cubic-bezier(.165,.84,.44,1);
+}
+.button:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+.button:hover {
+  background: rgba(255,255,255,0);
+}
+.music_data_container_preview_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.container__info_explain {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.music_data_container {
+  max-width: 1000px;
+  width: 100%;
+	min-height: 440px;
+  margin: auto;
+  padding: 3px;
+  height: auto;
+  background: linear-gradient(to right, red, purple);
+  background-color: #fbf6f6;
+	display: -webkit-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	display: -ms-flexbox;
+	display: flex
+}
+.music__border {
+  background: radial-gradient(ellipse at bottom, #123a69 0%, #030617 100%);
+  color: white;
+  padding: 2rem;
+  max-width: 1000px;
+    width: 100%;
+    min-height: 440px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+.music_data_container__p {
+  background: transparent;
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #ffff;
+  line-height: 1.2;
+}
+
+.find_error {
+  color: red;
+  width: 640px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find_error p {
+  color: #e5e80c;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px)  {
+  .music_data_container{
+    flex-direction: column;
+    min-height: 700px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .container{
+    flex-direction: column;
+  }
+  .container_wrapper {
+    min-height: 800px;
+  }
+
+.container  .contant_release {
+    color: grey;
+    width: 100%;
+    display: flex;    /* min-height: 300px; */
+    height: auto;
+    flex-direction: column;
+  }
+}

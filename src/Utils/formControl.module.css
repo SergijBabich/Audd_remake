@@ -1,0 +1,9 @@
+.form_control.error input,
+ .form_control.error textarea {
+ border: 2px solid #cacaca;
+ }
+ .form_control.error span {
+   color: #8799b9;
+   font-size: 15px;
+
+ }
